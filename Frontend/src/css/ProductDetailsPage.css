@@ -1,0 +1,208 @@
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    display: flex;
+    gap: 20px;
+}
+
+.product-image {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+}
+
+.product-text-info {
+    flex: 1;
+}
+
+.product-text-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-text-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.locations-list {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+    color: #333;
+}
+
+.locations-list li {
+    margin: 5px 0;
+}
+
+.product-reviews {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.item-review-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, rgba(249, 249, 249, 0.85), #e6e6e6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.item-review-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.review-card.expanded {
+    max-height: none;
+}
+
+.card-content {
+    text-align: left;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.review p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #555;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review-form,
+.booking-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-form input,
+.review-form textarea,
+.booking-form input,
+.booking-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+.review-form input:focus,
+.review-form textarea:focus,
+.booking-form input:focus,
+.booking-form select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.review-form button,
+.booking-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.review-form button:hover,
+.booking-form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.review-form button:active,
+.booking-form button:active {
+    transform: translateY(0);
+}
+
+.error-message,
+.loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker__input-container {
+    width: 100%;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.react-datepicker__input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.react-datepicker__day--highlighted-custom-available {
+    background-color: green;
+    color: white;
+}

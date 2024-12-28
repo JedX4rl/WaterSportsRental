@@ -1,0 +1,27 @@
+
+.hero {
+    background: url('../assets/pliazh_ukazatel_tablichka_162992_2560x1440.jpg') no-repeat center/cover;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+    width: 100%;
+}
+.hero div {
+    font-family: "Kohinoor Gujarati", serif;
+
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #0077b6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+}

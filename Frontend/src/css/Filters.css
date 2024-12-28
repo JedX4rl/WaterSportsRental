@@ -1,0 +1,85 @@
+.filters {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin-right: 2rem;
+}
+
+
+.filters-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.filters-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filter-group p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.filter-group label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.filter-group input[type="checkbox"] {
+    accent-color: #0077b6;
+    width: 1rem;
+    height: 1rem;
+}
+
+.price-range {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.price-range input[type="number"] {
+    width: 5rem;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.price-range span {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.apply-filters-button {
+    padding: 0.8rem 1rem;
+    background-color: #0077b6;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-filters-button:hover {
+    background-color: #005f99;
+}

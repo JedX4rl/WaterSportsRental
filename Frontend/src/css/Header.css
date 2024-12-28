@@ -1,0 +1,45 @@
+/* header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0077b6;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    flex: 0 0 auto;
+}
+
+.header .nav {
+    flex: 1;
+    text-align: center;
+}
+
+.header .nav ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 5rem;
+    font-size: 20px;
+    font-family: Futura, serif;
+}
+
+.header .nav ul a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.header .nav ul a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.header .nav a {
+    color: #fff;
+    text-decoration: none;
+}

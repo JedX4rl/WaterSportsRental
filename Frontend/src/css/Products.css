@@ -1,0 +1,114 @@
+
+.products-page {
+    padding: 15px;
+}
+
+
+.container-products-page {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.products {
+    width: 100%;
+    gap: 10px;
+    display: grid;
+    padding: 0 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.products .container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.products .product-card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    min-width: 300px;
+    max-height: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #f9f9f9, #e6e6e6);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.products .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.products .product-card .card-image {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3; /* Фиксированное соотношение сторон */
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.products .product-card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Изображение полностью заполняет блок, обрезая излишки */
+}
+
+.products .product-card .card-content {
+    padding: 1rem;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.products .product-card .card-content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.products .product-card .card-content p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.products .product-card .card-content strong {
+    color: #000;
+}
+
+.products .product-card .card-hover {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.products .product-card:hover .card-hover {
+    opacity: 1;
+}
+
+.products .product-card .details-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.products .product-card .details-button:hover {
+    background-color: #0056b3;
+}

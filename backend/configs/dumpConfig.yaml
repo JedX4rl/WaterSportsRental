@@ -1,0 +1,6 @@
+container: "CourseWork"
+username: "admin"
+db_name: "postgres"
+prefix: "backup"
+dir: "internal/dumps"
+restorePrefix: "restore"

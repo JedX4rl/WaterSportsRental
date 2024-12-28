@@ -1,0 +1,65 @@
+/* CSS для компонента Contacts */
+.contacts-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contacts-page h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.locations-table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.locations-table th, .locations-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.locations-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.locations-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.locations-table tr:hover {
+    background-color: #ddd;
+}
+
+.locations-table th, .locations-table td {
+    text-align: center;
+}
+
+.locations-table th:first-child, .locations-table td:first-child {
+    border-top-left-radius: 10px;
+}
+
+.locations-table th:last-child, .locations-table td:last-child {
+    border-top-right-radius: 10px;
+}
+
+.locations-table td {
+    font-size: 1em;
+}

@@ -1,0 +1,152 @@
+.profile-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile-details p,
+.edit-form label {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.order-history {
+    margin-top: 20px;
+}
+
+.order-history h2 {
+    margin-bottom: 15px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.order-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.order-item div p {
+    margin: 5px 0;
+}
+
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.edit-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.edit-form button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.edit-form button[type="button"] {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-form button[type="button"]:hover {
+    background-color: #d32f2f;
+}
+
+.edit-form button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+.edit-form button[type="submit"]:hover {
+    background-color: #388e3c;
+}
+
+.profile-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.logout-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
+
+
+
+.edit-button {
+    background-color: #2660a8;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #181d87;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
